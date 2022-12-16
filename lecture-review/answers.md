@@ -14,7 +14,7 @@ class Parent extends Component {
 }
 
 const Child = (props) => {    
-    return \<h1>{props.value}\</h1>; 
+    return /<h1>{props.value}/</h1>; 
 };
 
 Here the Parent is passing the prop "I am a prop" to the Child. The Child can access the value of the prop by using props.value.
@@ -90,7 +90,7 @@ Margin - Generates space outside the border.
 e.g.
 
 <div>
-	\<h1>Hello World\</h1>
+	/<h1>Hello World/</h1>
 </div>
 
 <style>
